@@ -7,7 +7,7 @@ Information weighted consesus (ICF) is a distributed version of Kalman Filter. B
 
 ## Implementation
 ### Tracking of a moving object in a 500x500 space
-![alt text](https://github.com/eugenelet/Information-Weighted-Consensus/ICF_CKF.gif)
+![alt text](https://github.com/eugenelet/Information-Weighted-Consensus/blob/master/ICF_CKF.gif)
 Green: Ground truth trace of moving object
 
 Red: ICF
