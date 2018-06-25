@@ -9,11 +9,13 @@ Information weighted consesus (ICF) is a distributed version of Kalman Filter. B
 ### Tracking of a moving object in a 500x500 space
 ![alt text](https://github.com/eugenelet/Information-Weighted-Consensus/blob/master/ICF_CKF.gif)
 
-Green: Ground truth trace of moving object
+The *blue triangles* corresponds to the *field of view (FOV)* or different cameras. As we can see, there are 5 cameras in total trying to track a moving object. The *gray circle* corresponds to the *inverse of the information matrix* and it implies the uncertainty of an estimation at that particular instance.
 
-Red: ICF
+**Green**: Ground truth trace of moving object
 
-Black: Central Kalman Filter (CKF)
+**Red**: ICF
+
+**Black**: Central Kalman Filter (CKF)
 
 
 ### Error vs Different Simulation Runs
